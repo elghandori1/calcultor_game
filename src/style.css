@@ -1,0 +1,228 @@
+.bg-description{
+    background-color: greenyellow;
+}
+.parent{
+    position: relative;
+}
+.description{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.btn-start{
+    position: absolute;
+    top: 44%;
+    left: 25%;
+}
+
+.button-74 {
+  background-color: #d2ffad;
+  border: 2px solid #015a10;
+  border-radius: 30px;
+  box-shadow: #008405 4px 4px 0 0;
+  color: #008405;
+  cursor: pointer;
+  display: inline-block;
+  width: 130px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 16px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #134200 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.alert-use{
+    position: absolute;
+    top: 31%;
+    left: 100px;
+}
+
+.add{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 70%;
+}
+.equal{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 80%;
+    top: 80px;
+}
+.adbstract{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 90%;
+    top: 25%;
+}
+.five{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 80%;
+    top: 30%;
+}
+.two{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 44%;
+}
+.nine{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 70%;
+    top: 18%;
+}
+.multip{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 58%;
+    top: 22%;
+}
+.quationMark{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 88%;
+    top: 4%;
+}
+.three{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 86%;
+    top: 48%;
+}
+.seven{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 52%;
+    top: 64%;
+}
+.one{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 58%;
+    top: 4%;
+}
+.subtraction{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 88%;
+    top: 65%;
+}
+
+/*--choose page--*/
+
+.text-green{
+    color: #008405;
+}
+
+.card-menu {
+ height: 100px;
+}
+
+.field {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 200px;
+    min-height: 44px;
+    border: 1px solid rgba(20, 86, 0, 0.5);
+    border-radius: 4px;
+    outline-color: rgba(20, 86, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.childe2{
+    background-color: #fff;
+    width: 270px;
+}
+
+/* button start now in choose page */
+.button-74_v2 {
+    background-color: #d2ffad;
+    border: 2px solid #015a10;
+    border-radius: 30px;
+    box-shadow: #008405 4px 4px 0 0;
+    color: #008405;
+    cursor: pointer;
+    display: inline-block;
+    width: 130px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 16px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 46%;
+    left: 22%;
+  }
+
+/*childs start page*/
+.edit_childs{
+position: relative;
+}
+.child1{
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    left: 60px;
+}
+.child2{
+    position: absolute;
+    width: 180px;
+    top: 20px;
+    left: 80%;
+}
+.child3{
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    left: 40%;
+}
+.pencil{
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    left: 26%;
+}
+.carpentry{
+    position: absolute;
+    width: 80px;
+    top: 120px;
+    left: 66%;
+}
