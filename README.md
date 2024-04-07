@@ -1,13 +1,15 @@
-# Game Name: "Math Multiplication Game"
+# Game Name: "Calculator Game"
 
-"Math Multiplication Game" is an educational game that aims to improve players' mathematical skills. The game presents a random multiplication operation to the player, and they must enter the correct answer. If the player enters the correct answer, they earn a point and a new operation is presented. If the answer is incorrect, it deducts from their remaining attempts, which are limited to three.
+This game is designed to help young children sharpen their mental arithmetic skills in a fun and engaging way.
 
-The game aims to motivate players to enhance their mathematical abilities and develop quick and accurate calculation skills. As the player achieves more correct answers, their points increase, and they progress in the game.
-
-At the end of each round, the player's level in the game is displayed based on the number of points they have earned
+### How it works
+- Choose Your Operation: At the start of the game, you can choose the type of arithmetic operation you want to practice - addition, subtraction, multiplication, division, or a mix of them all.
+- Answer the Questions: The game will present you with a series of arithmetic problems, like 2*4 or 3+3. Your task is to enter the correct answer.
+- Be careful : You only have three chances. If you give the wrong answer three times, the game ends..
+- Beat the Clock : Each problem must be solved in less than 30 seconds. As you progress, the difficulty increases and the time you have to solve each problem decreases.
 
 ## Image of this game:
-<image src="https://github.com/MG-elghandori/chronometre/assets/110783998/1a9d3626-ffc2-44fb-8944-40c945b8ee85" width="500">
+<image src="https://github.com/elghandori1/calcultor_game/assets/110783998/58db89a1-e8b3-43b0-b7df-2a8958264e8b" width="500">
 
 ## Technologies & Framework:
 - React.js
@@ -15,7 +17,4 @@ At the end of each round, the player's level in the game is displayed based on t
 
 ## social media :
 - facebook page : MG-code
-- LinkedIn : MOHAMMED ELGHANDORI
-
-## game experience link : 
-[Math Multiplication Game](https://astounding-youtiao-48bdf4.netlify.app/?fbclid=IwAR2vdEPKuCyyzvH4jYwcwQSygFdScUK9Hi7XSy4vRtFT95-MzRuaOqeV1jI) game experience
+- LinkedIn : Mohammed Elghandori
