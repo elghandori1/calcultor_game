@@ -257,11 +257,57 @@ position: relative;
     justify-content: space-between;
   } 
 
-
   .modal-button {
     background-color: #01d224;
     color: white;
     border-radius: 0.25rem;
     cursor: pointer;
- 
+  }
+
+  .part_right{
+    height:100px;
+  }
+
+  .input_display_number{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: #008405 3px solid;
+    background-color: #d2ffad;
+    font-size: 20px;
+    font-weight: 700;
+    color: #015a10;
+    text-align: center;
+  }
+
+  .bg_start{
+    position: relative;
+    height: 66vh;
+  }
+
+  .child_indx{
+    position: absolute;
+    z-index: 1000;
+    top: 14%;
+    left: 56%;
+  }
+
+  .bg_eath{
+    position: absolute;
+    top: 44%;
+  }
+
+  .answer{
+    position: absolute;
+    left: 38%;
+  
+  }
+
+  .form-answer{
+    border: none;
+    outline: #008405 2px solid;
+  }
+
+  .nbr_score{
+    background-color: #01d224;
   }
