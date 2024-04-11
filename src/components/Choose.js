@@ -100,7 +100,7 @@ function Choose() {
                         Simply click on the corresponding button to make your selection.
                     </li>
                     <li>
-                         Once you've made these selections, press the 'Start' button to begin the game. 
+                         Once you've made these selections, press the 'start now' button to begin the game. 
                          Remember, the goal is to solve each problem as quickly as possible. 
                          The clock is ticking, so think fast!
                     </li>                   
