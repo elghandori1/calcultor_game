@@ -1,58 +1,68 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import child_home from '../images_home/child_home.png';
-import add from '../numbers/add-01.png';
-import adbstract from '../numbers/adbstract-01.png';
-import equal from '../numbers/equal-01.png';
-import five from '../numbers/five-01.png';
-import two from '../numbers/two-01.png';
-import nine from '../numbers/nine-01.png';
-import multip from '../numbers/multip-01.png';
-import quationMark from '../numbers/quationMark-01.png';
-import three from '../numbers/three-01.png';
-import seven from '../numbers/seven-01.png';
-import subtraction from '../numbers/subtraction-01.png';
-import one from '../numbers/one-01.png';
-
+import img_cover from "../images/cover.png";
 import '../style.css';
 function Home() {
-    let navigate=useNavigate();
+    const [show,setShow]=React.useState('none');
+    const handleShow = () => {
+        setShow('block');
+    };
+
+    const handleClose = () => {
+        setShow('none');
+    };
     return (
-        <div className='container'style={{height:"100vh"}}>
-            <div className='card shadow parent'>
-                <div className='card col-6 bg-description description p-3 shadow'>
-                <h3>Calculator game</h3>
-                Welcome to our Mental Arithmetic Game! <br/>
-                This game is designed to help young children sharpen their mental arithmetic skills in a fun and engaging way. <br/> 
+        <div className='container'>
+            <div className='card-parncipale rounded shadow'>
+
+                <div className='mt-3 bg-menu rounded-end shadow-sm'>
+                    <ul className='d-flex list-unstyled'>
+                        <li className='mx-4 mt-3'>About</li>
+                        <li className='mx-4 mt-3'>Score</li>
+                        <li className='mx-4 mt-3'>Language</li>
+                    </ul>
                 </div>
-                <div className='alert alert-primary d-flex align-items-center col-5 alert-use' style={{fontSize:"14px"}} role="alert">
+
+                <div className='card-info col-4 rounded p-3'>
+                    <h3 className='text-danger'>Calculator game</h3>
+                    Welcome to our Mental Arithmetic Game!
+                    This game is designed to help young children sharpen their mental arithmetic skills in a fun and engaging way.
+                </div>
+                {/* alert how work */}
+                <div className='how-work rounded bg-white col-10 p-2 shadow' style={{display:show}}>
+                    <div className='d-flex justify-content-between align-items-center mt-1'>
+                        <h4 className='text-primary mx-3'>How it works</h4>
+                        <button className='btn btn-danger mx-3' onClick={handleClose}>x</button>
+                    </div>
+                    <hr/>
+                    <ul>
+                        <li className='mt-2'><b>Choose Your Operation:</b><br />
+                            At the start of the game, you can choose the type of arithmetic operation you want to practice
+                            - addition, subtraction, multiplication, division, or a mix of them all.</li>
+                        <li className='mt-3'><b>Answer the Questions:</b> <br />
+                            The game will present you with a series of arithmetic problems, like 2*4 or 3+3.
+                            Your task is to enter the correct answer.</li>
+                        <li className='mt-3'><b>Be careful:</b> <br />
+                            You only have three chances. If you give the wrong answer three times, the game ends..</li>
+                        <li className='mt-3'><b>Beat the Clock:</b> <br />
+                            Each problem must be solved in less than 30 seconds. As you progress, the difficulty increases and the time you have
+                            to solve each problem decreases.</li>
+                    </ul>
+                </div>
+                {/* end alert how work */}
+                <div className='alert-infos alert d-flex align-items-center col-4' role="alert">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
                     </svg>
-                    <Link to='/infos' className='mx-2'>Click here</Link>
+                    <b className='mx-2 text-danger text-decoration-underline pointer-cursor' onClick={handleShow}>Click here</b>
                     <span>if you want to know how the game works!</span>
                 </div>
-              
-                <div>
-                    <button onClick={()=>{navigate("/choose")}} className='btn-start button-74'>start</button>
+
+                <div className='btn-start'>
+                    <button className="button-29" role="button">start</button>
                 </div>
-                <img className='add' src={add} alt='add'></img>
-                <img className='adbstract' src={adbstract} alt='adbstract'></img>
-                <img className='equal' src={equal} alt='equal'></img>
-                <img className='five' src={five} alt='five'></img>
-                <img className='two' src={two} alt='two'></img>
-                <img className='nine' src={nine} alt='nine'></img>
-                <img className='multip' src={multip} alt='multip'></img>
-                <img className='quationMark' src={quationMark} alt='quationMark'></img>
-                <img className='seven' src={seven} alt='seven'></img>
-                <img className='three' src={three} alt='three'></img>
-                <img className='subtraction' src={subtraction} alt='subtraction'></img>
-                <img className='one' src={one} alt='one'></img>
-                <img style={{width:"100%"}} src={child_home} alt='child_home'></img>
+
+                <img src={img_cover} alt='img' className='img_cover rounded' />
             </div>
-            
         </div>
     )
 }
-
 export default Home;

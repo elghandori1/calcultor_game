@@ -1,313 +1,100 @@
-.bg-description{
-    background-color: greenyellow;
-}
-.parent{
-    position: relative;
-}
-.description{
-    position: absolute;
-    top: 25px;
-    left: 60px;
-}
-.btn-start{
-    position: absolute;
-    top: 44%;
-    left: 25%;
+/*---global style---*/
+
+.pointer-cursor{
+  cursor: pointer;
 }
 
-.button-74 {
-  background-color: #d2ffad;
-  border: 2px solid #015a10;
-  border-radius: 30px;
-  box-shadow: #008405 4px 4px 0 0;
-  color: #008405;
+/*----home page----*/
+.img_cover{
+  width: 100%;
+  height: auto;
+}
+.card-parncipale{
+  background-color: rgb(236, 235, 235);
+  position: relative;
+}
+
+.bg-menu{
+  background-color: rgb(124, 218, 255);
+  position: absolute;
+  z-index: 2;
+}
+
+.card-info{
+  position: absolute;
+  z-index: 3;
+  top: 18%;
+  left: 4%;
+  background-color: #FEC6B7;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.alert-infos{
+  position: absolute;
+  z-index: 4;
+  top: 40%;
+  left: 4%;
+  font-size: 14px;
+  background-color: rgb(124, 218, 255);
+}
+.btn-start{
+  position: absolute;
+  z-index: 4;
+  top: 52%;
+  left: 12%;
+}
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #3cbfe0 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  display: inline-block;
-  width: 130px;
-  font-weight: 400;
-  font-size: 18px;
-  padding: 0 16px;
-  line-height: 50px;
-  text-align: center;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
   text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 20px;
+  width: 180px;
 }
 
-.button-74:hover {
-  background-color: #fff;
+.button-29:focus {
+  box-shadow: #5e6ff2 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3cbfe0 0 -3px 0 inset;
 }
 
-.button-74:active {
-  box-shadow: #134200 2px 2px 0 0;
-  transform: translate(2px, 2px);
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
 
-.alert-use{
-    position: absolute;
-    top: 31%;
-    left: 100px;
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 
-.add{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 70%;
+.how-work{
+  /* display: none; */
+  position: absolute;
+  z-index: 6;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.equal{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 80%;
-    top: 80px;
-}
-.adbstract{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 90%;
-    top: 25%;
-}
-.five{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 80%;
-    top: 30%;
-}
-.two{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 50%;
-    top: 44%;
-}
-.nine{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 70%;
-    top: 18%;
-}
-.multip{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 58%;
-    top: 22%;
-}
-.quationMark{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 88%;
-    top: 4%;
-}
-.three{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 86%;
-    top: 48%;
-}
-.seven{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 52%;
-    top: 64%;
-}
-.one{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 58%;
-    top: 4%;
-}
-.subtraction{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 88%;
-    top: 65%;
-}
-
-/*--choose page--*/
-
-.text-green{
-    color: #008405;
-}
-
-.card-menu {
- height: 100px;
-}
-
-.field {
-    font-size: 16px;
-    line-height: 28px;
-    padding: 8px 16px;
-    width: 200px;
-    min-height: 44px;
-    border: 1px solid rgba(20, 86, 0, 0.5);
-    border-radius: 4px;
-    outline-color: rgba(20, 86, 0, 0.5);
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
-                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
-                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-}
-
-.childe2{
-    background-color: #fff;
-    width: 270px;
-}
-
-/* button start now in choose page */
-.button-74_v2 {
-    background-color: #d2ffad;
-    border: 2px solid #015a10;
-    border-radius: 30px;
-    box-shadow: #008405 4px 4px 0 0;
-    color: #008405;
-    cursor: pointer;
-    display: inline-block;
-    width: 130px;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 0 16px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    position: absolute;
-    top: 46%;
-    left: 22%;
-  }
-
-/*childs start page*/
-.edit_childs{
-position: relative;
-}
-.child1{
-    position: absolute;
-    width: 150px;
-    top: 50px;
-    left: 60px;
-}
-.child2{
-    position: absolute;
-    width: 180px;
-    top: 20px;
-    left: 80%;
-}
-.child3{
-    position: absolute;
-    width: 150px;
-    top: 50px;
-    left: 40%;
-}
-.pencil{
-    position: absolute;
-    width: 100px;
-    top: 100px;
-    left: 26%;
-}
-.carpentry{
-    position: absolute;
-    width: 80px;
-    top: 120px;
-    left: 66%;
-}
-
-/*alert*/  
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1001;
-  }
-  
-  .modal-container {
-    background-color: white;
-    padding: 10px;
-    width: 350px;
-    max-width: 100vw;
-    max-height: 100vh;
-    border-radius: 3px;
-    overflow-y: auto;
-    box-sizing: border-box;
-  }
-
-  .modal-header{
-    display: flex;
-    justify-content: space-between;
-  } 
-
-  .modal-button {
-    background-color: #01d224;
-    color: white;
-    border-radius: 0.25rem;
-    cursor: pointer;
-  }
-
-  .part_right{
-    height:100px;
-  }
-
-  .input_display_number{
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    outline: #008405 3px solid;
-    background-color: #d2ffad;
-    font-size: 20px;
-    font-weight: 700;
-    color: #015a10;
-    text-align: center;
-  }
-
-  .bg_start{
-    position: relative;
-    height: 66vh;
-  }
-
-  .child_indx{
-    position: absolute;
-    z-index: 1000;
-    top: 14%;
-    left: 56%;
-  }
-
-  .bg_eath{
-    position: absolute;
-    top: 44%;
-  }
-
-  .answer{
-    position: absolute;
-    left: 38%;
-  
-  }
-
-  .form-answer{
-    border: none;
-    outline: #008405 2px solid;
-  }
-
-  .nbr_score{
-    background-color: #01d224;
-  }
